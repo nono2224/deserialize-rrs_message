@@ -67,16 +67,22 @@ export default class DeserializeRRSMessage {
                         this.message = new MessageRoad(reader);
                         break;
                     case 7:
+                        console.error("新しいメッセージタイプ");
                         break;
                     case 8:
+                        console.error("新しいメッセージタイプ");
                         break;
                     case 9:
                         this.message = new CommandPolice(reader);
                         break;
                     case 10:
+                        console.error("新しいメッセージタイプ");
                         break;
                     case 11:
+                        console.error("新しいメッセージタイプ");
                         break;
+                    default:
+                        console.error("えらー");
                 }
             } catch (e) {
                 console.error("えらー", e);
