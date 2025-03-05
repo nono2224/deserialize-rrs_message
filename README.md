@@ -2,6 +2,9 @@
 
 [RoboCupRescue Simulation Server](https://github.com/roborescue/rcrs-server)のシミュレーションにおいて，エージェントが送信する通信をデシリアライズするコードです
 
+本コードの使い方は index.ts 内に記述されています．
+下記のセットアップと実行方法は index.ts および本コードの実行の際の手順です．
+
 ## セットアップ
 
 ### 1. 本リポジトリのクローンを作成
