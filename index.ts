@@ -16,7 +16,7 @@ console.log(message);
 //     channel: 1, // 送信に使用したチャンネル
 //     messageType: 3, // メッセージが市民の叫び以外だった場合に格納されるメッセージの種類 詳しくはadf-core-javaのStandardMessageBundle.javaより
 //     ttl: -1, // Channelが0だった場合（音声通信）に格納される Time to Live -> ネットワーク内のパケットやレコードが破棄されるまでの時間を表す値
-//     message: MessageCivilian { //メッセージの中身 今回はMessageCivilian 市民の叫びの場合はそのまま"Help"とか"Ouch"が入る
+//     message: MessageCivilian { //メッセージの中身 今回はMessageCivilian
 //       id: 1924647849, // 市民のエンティティID
 //       hp: 9750, // 市民の体力
 //       buriedness: 45, // 市民の埋没度
