@@ -5,9 +5,9 @@ export default class MessageRoad extends Message {
     id: number = -1;
     blockadeId: number = -1;
     cost: number = -1;
-    x: number = -1;
-    y: number = -1;
-    passable: number = -1;
+    x: number | null = null;
+    y: number | null = null;
+    passable: number | null = null;
 
     constructor(reader: BitStreamReader) {
         super();
