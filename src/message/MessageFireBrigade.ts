@@ -21,8 +21,8 @@ export default class MessageFireBrigade extends Message {
         this.damage = reader.getBits(1) === 1 ? reader.getBits(14) : -1;
         this.position = reader.getBits(1) === 1 ? reader.getBits(32) : -1;
         this.target = reader.getBits(1) === 1 ? reader.getBits(32) : -1;
-        this.water = reader.getBits(1) === 1 ? reader.getBits(32) : -1;
         const actionNum = reader.getBits(4);
+        this.water = reader.getBits(1) === 1 ? reader.getBits(32) : -1;
 
         if (actionNum === 0) {
             this.action = "REST";
